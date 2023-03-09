@@ -1,0 +1,49 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.caption {
+    width: 16.6%;
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.caption-title {
+    padding: 8px 16px;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+}
+
+.form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+.question {
+    display: block;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.not {
+    opacity: .3;
+}
+
+.response {
+    text-align: center;
+}
+.true {
+    color: #23c491;
+}
+.false {
+    color: #c42340;
+}
